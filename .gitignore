@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+latex/output/*.pdf
+*.fls
+*.fdb_latexmk
+
+# Output files
+output/*.txt
+output/*.csv
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.bak
+*~
+
+# Exclude data directory
+data/
+
+# Exclude LaTeX directory (assignment reports)
+latex/
+
+# Exclude README
+README.md
+
+# Exclude docs (PDFs)
+docs/
+
